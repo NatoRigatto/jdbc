@@ -1,5 +1,7 @@
 package aula_06.model.dao;
 
+import java.util.List;
+
 import aula_06.model.entities.Department;
 
 public interface DepartmentDao {
@@ -12,6 +14,6 @@ public interface DepartmentDao {
 
 	Department findById(Integer id);
 
-	Department findAll();
+	List<Department> findAll();
 
 }

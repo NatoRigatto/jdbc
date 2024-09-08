@@ -1,5 +1,7 @@
 package aula_06.model.dao;
 
+import java.util.List;
+
 import aula_06.model.entities.Seller;
 
 public interface SellerDao {
@@ -12,6 +14,6 @@ public interface SellerDao {
 
 	Seller findById(Integer id);
 
-	Seller findAll();
+	List<Seller> findAll();
 
 }
