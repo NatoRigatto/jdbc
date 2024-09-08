@@ -10,8 +10,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import aula_04.db.DB;
-import aula_05.db.DbException;
+import aula_06.db.DB;
+import aula_06.db.DbException;
 import aula_06.model.dao.SellerDao;
 import aula_06.model.entities.Department;
 import aula_06.model.entities.Seller;
